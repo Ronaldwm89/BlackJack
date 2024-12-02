@@ -6,9 +6,9 @@ cartas = {
     "♦️": ["A", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"],
     "♠️": ["A", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"],
     "♣️": ["A", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"],
-}
+} #Diccionario con todas las barajas del juego
 
-def eliminar_carta(simbolo, cards, indice):#Elimina la carta ya escogida de la baraja original
+def eliminar_carta(simbolo, cards, indice):
     if simbolo in ["♥️","♦️","♠️","♣️"]:
         if indice == 11:
             indice = "J"
@@ -20,7 +20,7 @@ def eliminar_carta(simbolo, cards, indice):#Elimina la carta ya escogida de la b
             indice= "A"
         
         if indice in cards:
-            cartas[simbolo].remove(indice)           
+            cartas[simbolo].remove(indice)#Elimina la carta ya escogida de la baraja original         
 
 def simbolo_y_carta(symbol, card):#Elige una carta aleatoria dentro de la baraja
     simbolo = random.choice(list(cartas))
@@ -77,11 +77,7 @@ def juega_pc(valor_usuario):#Acciones de juego del pc
         if total_pc < 16 or (valor_usuario > total_pc and valor_usuario <= 21):
             print("\n")
             print("La pc elige otra carta: ")
-            
-            
-
-        
-        
+      
         if total_pc == 21 and valor_usuario < 21:
             
             print("Lo sentimos perdiste el juego ♥️♦️♠️♣️😢")
