@@ -39,4 +39,43 @@ Improve the code structure by applying Object-Oriented Programming concepts.
 Implement a graphical user interface.
 Add more advanced Blackjack rules, such as splitting or betting.
 
+---------------------------------------------------------------------------------------------------
+
+# BlackJack
+# Blackjack em Python 🃏
+Este é um dos meus primeiros projetos de programação em Python. É um simples jogo de Blackjack criado como parte do meu processo inicial de aprendizagem. O código é bastante básico e pode ser significativamente melhorado, pois reflete meus primeiros passos na programação. Espero que este projeto sirva tanto para mostrar meu progresso quanto para ajudar outros iniciantes a aprender com ele.
+
+## Descrição do Projeto
+O jogo simula uma partida de Blackjack entre o jogador e o computador. Ele inclui:
+
+Um baralho de cartas com os quatro naipes padrão: ♥️, ♦️, ♠️, ♣️.
+Funcionalidade para calcular automaticamente os valores das cartas (incluindo os ases como 1 ou 11, dependendo da situação).
+Lógica para o jogador escolher se quer pedir mais uma carta ou parar.
+Comportamento básico de IA para o computador.
+Verificação de resultados: quem ganha, quem perde ou se há empate.
+Funcionalidades
+Aprendizado em Ação:
+Este projeto foi desenvolvido como parte das minhas primeiras lições em Python.
+
+Lógica Básica de Blackjack:
+Inclui a maioria das regras fundamentais do jogo.
+
+Simulação Dinâmica:
+As cartas jogadas são removidas do baralho para garantir um jogo justo.
+
+## Como Jogar
+Execute o arquivo Python no seu terminal.
+Responda S ou N quando perguntado se deseja jogar.
+Aproveite a partida contra o computador. Escolha se deseja pedir uma carta ou parar, mas tome cuidado para não ultrapassar 21!
+Notas Importantes
+Este código não está otimizado e pode conter erros. Ele reflete meus primeiros passos na programação, portanto, sugestões e comentários para melhorá-lo são bem-vindos.
+
+Sinta-se à vontade para modificar ou melhorar a funcionalidade caso decida usar este código.
+
+## Próximos Passos
+No futuro, planejo:
+
+Melhorar a estrutura do código aplicando conceitos de Programação Orientada a Objetos.
+Implementar uma interface gráfica.
+Adicionar regras mais avançadas de Blackjack, como divisão ou apostas.
 
